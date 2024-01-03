@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HappyHub</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="client.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <img class="chatimg" src="chatlogo.png" alt="chatlogo">
+        <p class="text-decoration">HappyHub</p>
+    </nav>
+
+    <div class="container">
+        <div class="message center">Welcome!</div>
+        <!-- <div class="message left">Anonm:Welcome</div> -->
+    </div>
+
+    <footer>
+        <form style="display: flex;" action="#" id="send-container">
+            <input class="sendbox" type="text" placeholder="Send Message..." id="messageInp" required> &nbsp
+            <input class="sendbtn" type="submit" value="Send">
+            
+        </form>
+    </footer>
+</body>
+
+</html>
